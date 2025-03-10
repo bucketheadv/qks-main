@@ -1,4 +1,4 @@
-package org.qks.main.dao;
+package org.qks.main.repository.hibernate.dao;
 
 import jakarta.persistence.EntityManager;
 

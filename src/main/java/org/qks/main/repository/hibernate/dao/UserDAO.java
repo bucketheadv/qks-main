@@ -1,9 +1,9 @@
-package org.qks.main.dao;
+package org.qks.main.repository.hibernate.dao;
 
 //import io.quarkus.hibernate.orm.PersistenceUnit;
 import jakarta.inject.Singleton;
 import jakarta.persistence.EntityManager;
-import org.qks.main.dao.po.UserPo;
+import org.qks.main.repository.hibernate.po.UserPo;
 
 @Singleton
 public class UserDAO extends BaseDAO<UserPo> {

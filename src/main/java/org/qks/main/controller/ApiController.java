@@ -4,7 +4,7 @@ import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.QueryParam;
-import org.qks.main.dao.po.UserPo;
+import org.qks.main.repository.mybatis.po.UserEntity;
 import org.qks.main.service.UserService;
 
 @Path("/api")
@@ -14,7 +14,7 @@ public class ApiController {
 
     @GET
     @Path("/user")
-    public UserPo user(@QueryParam("id") Long id) {
+    public UserEntity user(@QueryParam("id") Long id) {
         return userService.getUserById(id);
     }
 

@@ -1,4 +1,4 @@
-package org.qks.main.dao.po;
+package org.qks.main.repository.hibernate.po;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
